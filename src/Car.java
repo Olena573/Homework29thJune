@@ -9,6 +9,7 @@ import exception.invalidCarBrandException;
 import exception.invalidCarDoorsException;
 
 public class Car {
+    public Object setCarType;
     //Here is a class "Car"
     private String carColor;
     private String carType;
