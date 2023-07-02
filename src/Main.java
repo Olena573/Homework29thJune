@@ -3,6 +3,9 @@
 import Inheritance.Car;
 import exception.invalidCarDoorsException;
 import exception.invalidCarTypeException;
+import java.util.ArrayList;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -46,18 +49,31 @@ public class Main {
         } catch (invalidCarTypeException ignored) {
             System.out.println("Here we ignored an exception");
         }
-        try { car726.setCarType = "1";
+        try {
+            car726.setCarType = "1";
 
         } catch (invalidCarDoorsException e) {
             System.out.println("Here we didn't  ignored an exception");
         }
-
+//Here are actions for objects with exceptions:
         System.out.println(car4.getCarColor());
         System.out.println(car5.getCarBrand());
         System.out.println(car23.getCarColor());
         System.out.println(car23.getCarDoors());
+//Here are actions for objects with exceptions:
+        System.out.println(car4.equals(car23));
+        System.out.println(car726.equals(car23));
+
 
     }
+}
+
+
+
+
+
+
+
 
     //Here are some methods from previous homework, which I've left in a comment for the case.
       /*  System.out.println(car.getCarColor());
@@ -70,14 +86,14 @@ public class Main {
         */
 
         //Here are actions for objects with exceptions:
-    //   System.out.println(car.equals(car4));
-    //    System.out.println(car.equals(car5));
+     // System.out.println(car.equals(car4));
+     //   System.out.println(car.equals(car5));
 
        // System.out.println(car);
       //  System.out.println(car1);
       //  System.out.println(car2);
       //  System.out.println(car3);
+//}
 
 
-        }
 
